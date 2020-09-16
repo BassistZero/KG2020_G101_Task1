@@ -35,9 +35,3 @@ struct CentralDoomguy: View {
             .stroke()
     }
 }
-
-struct CentralDoomguy_Previews: PreviewProvider {
-    static var previews: some View {
-        return CentralDoomguy().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}

@@ -13,9 +13,3 @@ struct RightBackImpsHand: View {
         Text("Coming Soon!")
     }
 }
-
-struct RightBackImpsHand_Previews: PreviewProvider {
-    static var previews: some View {
-        return RightBackImpsHand().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}

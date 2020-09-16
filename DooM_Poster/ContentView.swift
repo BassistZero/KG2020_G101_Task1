@@ -13,20 +13,14 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundGradient()
-            Mountains()
-            DooMText()
+            //Mountains()
+            //DooMText()
             //LeftDoomguy()
             //LeftImp()
-            //CentralDoomguy()
+            CentralDoomguy()
             //GunsEffect()
             //RightForeImp()
             //RightBackImpsHand()
         }
-    }
-}
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        return ContentView().previewLayout(.fixed(width: 2688, height: 1242))
     }
 }

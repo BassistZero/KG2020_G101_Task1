@@ -13,9 +13,3 @@ struct RightForeImp: View {
         Text("Coming Soon!")
     }
 }
-
-struct RightForeImp_Previews: PreviewProvider {
-    static var previews: some View {
-        return RightForeImp().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}

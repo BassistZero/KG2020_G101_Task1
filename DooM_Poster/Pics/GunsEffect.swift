@@ -13,9 +13,3 @@ struct GunsEffect: View {
         Text("Coming Soon!")
     }
 }
-
-struct GunsEffect_Previews: PreviewProvider {
-    static var previews: some View {
-        return GunsEffect().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}

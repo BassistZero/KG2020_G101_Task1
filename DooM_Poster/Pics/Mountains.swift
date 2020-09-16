@@ -19,17 +19,14 @@ struct Mountains: View {
                 
                 Triangle()
                     .fill(LinearGradient(gradient: gradientRtoOr, startPoint: .leading, endPoint: .bottomTrailing))
-                    .frame(width: 500, height: 800)
                 
                 Spacer()
                 Spacer()
                 
                 Triangle()
                     .fill(RadialGradient(gradient: gradientRtoOr, center: .center, startRadius: 100, endRadius: 300))
-                .frame(width: 300, height: 800)
                 Triangle()
                     .fill(LinearGradient(gradient: gradientOrtoR, startPoint: .bottomLeading, endPoint: .topTrailing))
-                .frame(width: 900, height: 800)
                 
                 Spacer()
             }
@@ -39,7 +36,6 @@ struct Mountains: View {
                     
                     Triangle()
                         .fill(LinearGradient(gradient: gradientOrtoR, startPoint: .top, endPoint: .bottom))
-                        .frame(width: 700, height: 800)
                 }
                 
                 Spacer()
@@ -49,15 +45,8 @@ struct Mountains: View {
                     
                     Triangle()
                         .fill(LinearGradient(gradient: gradientRtoOr, startPoint: .bottom, endPoint: .topLeading))
-                        .frame(width: 800, height: 1200)
                 }
             }
         }
-    }
-}
-
-struct Mountains_Previews: PreviewProvider {
-    static var previews: some View {
-        return Mountains().previewLayout(.fixed(width: 2688, height: 1242))
     }
 }

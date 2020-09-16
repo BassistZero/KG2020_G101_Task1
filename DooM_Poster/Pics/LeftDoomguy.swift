@@ -13,9 +13,3 @@ struct LeftDoomguy: View {
         Text("Coming Soon!")
     }
 }
-
-struct LeftDoomguy_Previews: PreviewProvider {
-    static var previews: some View {
-        return LeftDoomguy().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}

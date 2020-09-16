@@ -21,9 +21,3 @@ struct BackgroundGradient: View {
         }
     }
 }
-
-struct BackgroundGradient_Previews: PreviewProvider {
-    static var previews: some View {
-        return BackgroundGradient().previewLayout(.fixed(width: 2688, height: 1242))
-    }
-}
