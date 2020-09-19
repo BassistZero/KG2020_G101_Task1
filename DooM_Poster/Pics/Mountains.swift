@@ -9,26 +9,51 @@
 import SwiftUI
 
 struct Mountains: View {
-    let gradientRtoOr = Gradient(colors: [.red, .orange])
-    let gradientOrtoR = Gradient(colors: [.orange, .red])
+    let gradientROG = Gradient(colors: [.red, .orange, .gray])
+    let gradientGOR = Gradient(colors: [.gray, .orange, .red])
     
     var body: some View {
         ZStack {
+
             VStack {
                 HStack {
                     Triangle()
-                        .fill(Color.red)
+                        .fill(LinearGradient(gradient: gradientGOR, startPoint: .bottom, endPoint: .topTrailing))
+                    VStack {
+                        Triangle()
+                            .opacity(0)
+                        Triangle()
+                            .fill(LinearGradient(gradient: gradientGOR, startPoint: .bottom, endPoint: .topTrailing))
+                    }
                     Triangle()
-                        .fill(Color.blue)
+                        .fill(LinearGradient(gradient: gradientGOR, startPoint: .bottomLeading, endPoint: .bottomTrailing))
                 }
-                Triangle()
+                Rectangle()
                     .fill(Color.gray)
             }
             HStack {
-                Triangle()
-                .fill(Color.yellow)
+                LeftTriangle()
+                    .fill(LinearGradient(gradient: gradientROG, startPoint: .leading, endPoint: .trailing))
+                    .frame(width: 300, height: 300)
+                
                 Spacer()
+                
+                RightTriangle()
+                    .fill(LinearGradient(gradient: gradientGOR, startPoint: .leading, endPoint: .trailing))
+                    .frame(width: 300, height: 300)
+            }
+            VStack {
+                Triangle()
+                    .opacity(0)
+                Triangle()
+                    .fill(LinearGradient(gradient: gradientGOR, startPoint: .bottom, endPoint: .topLeading))
             }
         }
+    }
+}
+
+struct Mountains_Previews : PreviewProvider {
+    static var previews: some View {
+        return Mountains().previewDevice("iPad Pro (9.7-inch)").previewLayout(.device)
     }
 }

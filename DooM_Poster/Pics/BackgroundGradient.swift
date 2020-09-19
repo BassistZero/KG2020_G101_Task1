@@ -10,7 +10,7 @@ import SwiftUI
 
 struct BackgroundGradient: View {
     
-    let gradient = Gradient(colors: [.yellow, .orange])
+    let gradient = Gradient(colors: [.yellow, .red])
     
     var body: some View {
         ZStack {
@@ -19,5 +19,11 @@ struct BackgroundGradient: View {
             Rectangle()
                 .fill(LinearGradient(gradient: gradient, startPoint: .top, endPoint: .bottom)).opacity(0.5)
         }
+    }
+}
+
+struct BackgroundGradient_Previews : PreviewProvider {
+    static var previews: some View {
+        return BackgroundGradient().previewDevice("iPad Pro (9.7-inch)").previewLayout(.device)
     }
 }

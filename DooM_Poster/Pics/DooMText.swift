@@ -12,27 +12,47 @@ struct DooMText: View {
     
     var body: some View {
         
-        VStack {
-            HStack {
-                Text("Do")
-                    .font(.custom("AmazDooMLeft", size: 300))
-                    .gradientForeground(colors: [ .blue, .orange])
+        ZStack {
+            VStack {
+                HStack {
                     
-                Text("oM")
-                    .font(.custom("AmazDooMRight", size: 300))
-                    .gradientForeground(colors: [ .blue, .orange])
+                    Text("Do")
+                        .font(.custom("AmazDooMLeft", size: 530))
+                        .foregroundColor(.black)
+                        
+                    Text("oM")
+                        .font(.custom("AmazDooMRight", size: 530))
+                        .foregroundColor(.black)
+                }
+                
+                Spacer()
             }
-            Spacer()
+            
+            VStack {
+                HStack {
+                    
+                    Text("Do")
+                        .font(.custom("AmazDooMLeft", size: 500))
+                        .gradientForeground(colors: [ .blue, .orange])
+                        
+                    Text("oM")
+                        .font(.custom("AmazDooMRight", size: 500))
+                        .gradientForeground(colors: [ .blue, .orange])
+                }
+                
+                Spacer()
+            }
         }
     }
-    
 }
 
 struct DooMText_Previews : PreviewProvider {
     static var previews: some View {
-        return DooMText().previewLayout(.fixed(width: 2048 / 3.0, height: 1536 / 3.0))
+        return DooMText().previewDevice("iPad Pro (9.7-inch)").previewLayout(.device)
     }
 }
+
+
 
 extension View {
     public func gradientForeground(colors: [Color]) -> some View {

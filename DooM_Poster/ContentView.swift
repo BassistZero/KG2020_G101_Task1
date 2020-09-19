@@ -13,20 +13,16 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             BackgroundGradient()
+                .edgesIgnoringSafeArea(.all)
             Mountains()
             DooMText()
-            //LeftDoomguy()
-            //LeftImp()
-            //CentralDoomguy()
-            //GunsEffect()
-            //RightForeImp()
-            //RightBackImpsHand()
+            CentralDoomguy()
         }
     }
 }
 
 struct ContentView_Previews : PreviewProvider {
     static var previews: some View {
-        return ContentView().previewLayout(.fixed(width: 2048 / 3.0, height: 1536 / 3.0))
+        return ContentView().previewDevice("iPad Pro (9.7-inch)").previewLayout(.device)
     }
 }

@@ -16,14 +16,11 @@
 		0228F7EB250973C100CCFDFC /* BackgroundGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7EA250973C100CCFDFC /* BackgroundGradient.swift */; };
 		0228F7ED2509795400CCFDFC /* Mountains.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7EC2509795400CCFDFC /* Mountains.swift */; };
 		0228F7EF250979B700CCFDFC /* DooMText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7EE250979B700CCFDFC /* DooMText.swift */; };
-		0228F7F125097A1F00CCFDFC /* LeftDoomguy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7F025097A1F00CCFDFC /* LeftDoomguy.swift */; };
-		0228F7F325097A3800CCFDFC /* LeftImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7F225097A3800CCFDFC /* LeftImp.swift */; };
 		0228F7F525097A4500CCFDFC /* CentralDoomguy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7F425097A4500CCFDFC /* CentralDoomguy.swift */; };
-		0228F7F725097A7700CCFDFC /* GunsEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7F625097A7700CCFDFC /* GunsEffect.swift */; };
-		0228F7F925097A8600CCFDFC /* RightForeImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7F825097A8600CCFDFC /* RightForeImp.swift */; };
-		0228F7FB25097A9400CCFDFC /* RightBackImpsHand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0228F7FA25097A9400CCFDFC /* RightBackImpsHand.swift */; };
-		02569787250981F800FD471D /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02569786250981F800FD471D /* Triangle.swift */; };
 		0256978925098F5000FD471D /* StrokeText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0256978825098F5000FD471D /* StrokeText.swift */; };
+		026E8240251664AE00D9AEE3 /* RightTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E823F251664AE00D9AEE3 /* RightTriangle.swift */; };
+		026E82432516654B00D9AEE3 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E82422516654B00D9AEE3 /* Triangle.swift */; };
+		026E82472516663100D9AEE3 /* LeftTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026E82462516663100D9AEE3 /* LeftTriangle.swift */; };
 		0275D467250F422400F3F4BE /* AmazDooMLeft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0275D465250F422400F3F4BE /* AmazDooMLeft.ttf */; };
 		0275D468250F422400F3F4BE /* AmazDooMRight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0275D466250F422400F3F4BE /* AmazDooMRight.ttf */; };
 /* End PBXBuildFile section */
@@ -40,14 +37,11 @@
 		0228F7EA250973C100CCFDFC /* BackgroundGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradient.swift; sourceTree = "<group>"; };
 		0228F7EC2509795400CCFDFC /* Mountains.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mountains.swift; sourceTree = "<group>"; };
 		0228F7EE250979B700CCFDFC /* DooMText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DooMText.swift; sourceTree = "<group>"; };
-		0228F7F025097A1F00CCFDFC /* LeftDoomguy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftDoomguy.swift; sourceTree = "<group>"; };
-		0228F7F225097A3800CCFDFC /* LeftImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftImp.swift; sourceTree = "<group>"; };
 		0228F7F425097A4500CCFDFC /* CentralDoomguy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDoomguy.swift; sourceTree = "<group>"; };
-		0228F7F625097A7700CCFDFC /* GunsEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GunsEffect.swift; sourceTree = "<group>"; };
-		0228F7F825097A8600CCFDFC /* RightForeImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightForeImp.swift; sourceTree = "<group>"; };
-		0228F7FA25097A9400CCFDFC /* RightBackImpsHand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightBackImpsHand.swift; sourceTree = "<group>"; };
-		02569786250981F800FD471D /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 		0256978825098F5000FD471D /* StrokeText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeText.swift; sourceTree = "<group>"; };
+		026E823F251664AE00D9AEE3 /* RightTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightTriangle.swift; sourceTree = "<group>"; };
+		026E82422516654B00D9AEE3 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		026E82462516663100D9AEE3 /* LeftTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftTriangle.swift; sourceTree = "<group>"; };
 		0275D465250F422400F3F4BE /* AmazDooMLeft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmazDooMLeft.ttf; sourceTree = "<group>"; };
 		0275D466250F422400F3F4BE /* AmazDooMRight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmazDooMRight.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -110,12 +104,7 @@
 				0228F7EA250973C100CCFDFC /* BackgroundGradient.swift */,
 				0228F7EC2509795400CCFDFC /* Mountains.swift */,
 				0228F7EE250979B700CCFDFC /* DooMText.swift */,
-				0228F7F025097A1F00CCFDFC /* LeftDoomguy.swift */,
-				0228F7F225097A3800CCFDFC /* LeftImp.swift */,
 				0228F7F425097A4500CCFDFC /* CentralDoomguy.swift */,
-				0228F7F625097A7700CCFDFC /* GunsEffect.swift */,
-				0228F7F825097A8600CCFDFC /* RightForeImp.swift */,
-				0228F7FA25097A9400CCFDFC /* RightBackImpsHand.swift */,
 			);
 			path = Pics;
 			sourceTree = "<group>";
@@ -123,7 +112,9 @@
 		02569785250981DF00FD471D /* Shapes */ = {
 			isa = PBXGroup;
 			children = (
-				02569786250981F800FD471D /* Triangle.swift */,
+				026E82422516654B00D9AEE3 /* Triangle.swift */,
+				026E823F251664AE00D9AEE3 /* RightTriangle.swift */,
+				026E82462516663100D9AEE3 /* LeftTriangle.swift */,
 				0256978825098F5000FD471D /* StrokeText.swift */,
 			);
 			path = Shapes;
@@ -213,18 +204,15 @@
 			files = (
 				0256978925098F5000FD471D /* StrokeText.swift in Sources */,
 				0228F7D72509662700CCFDFC /* AppDelegate.swift in Sources */,
-				02569787250981F800FD471D /* Triangle.swift in Sources */,
-				0228F7FB25097A9400CCFDFC /* RightBackImpsHand.swift in Sources */,
-				0228F7F925097A8600CCFDFC /* RightForeImp.swift in Sources */,
-				0228F7F325097A3800CCFDFC /* LeftImp.swift in Sources */,
+				026E8240251664AE00D9AEE3 /* RightTriangle.swift in Sources */,
 				0228F7EB250973C100CCFDFC /* BackgroundGradient.swift in Sources */,
-				0228F7F125097A1F00CCFDFC /* LeftDoomguy.swift in Sources */,
 				0228F7D92509662700CCFDFC /* SceneDelegate.swift in Sources */,
 				0228F7DB2509662700CCFDFC /* ContentView.swift in Sources */,
+				026E82432516654B00D9AEE3 /* Triangle.swift in Sources */,
 				0228F7F525097A4500CCFDFC /* CentralDoomguy.swift in Sources */,
 				0228F7ED2509795400CCFDFC /* Mountains.swift in Sources */,
+				026E82472516663100D9AEE3 /* LeftTriangle.swift in Sources */,
 				0228F7EF250979B700CCFDFC /* DooMText.swift in Sources */,
-				0228F7F725097A7700CCFDFC /* GunsEffect.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
