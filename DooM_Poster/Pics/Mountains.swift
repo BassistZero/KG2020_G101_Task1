@@ -14,38 +14,20 @@ struct Mountains: View {
     
     var body: some View {
         ZStack {
-            HStack {
-                Spacer()
-                
+            VStack {
+                HStack {
+                    Triangle()
+                        .fill(Color.red)
+                    Triangle()
+                        .fill(Color.blue)
+                }
                 Triangle()
-                    .fill(LinearGradient(gradient: gradientRtoOr, startPoint: .leading, endPoint: .bottomTrailing))
-                
-                Spacer()
-                Spacer()
-                
-                Triangle()
-                    .fill(RadialGradient(gradient: gradientRtoOr, center: .center, startRadius: 100, endRadius: 300))
-                Triangle()
-                    .fill(LinearGradient(gradient: gradientOrtoR, startPoint: .bottomLeading, endPoint: .topTrailing))
-                
-                Spacer()
+                    .fill(Color.gray)
             }
             HStack {
-                VStack {
-                    Spacer()
-                    
-                    Triangle()
-                        .fill(LinearGradient(gradient: gradientOrtoR, startPoint: .top, endPoint: .bottom))
-                }
-                
+                Triangle()
+                .fill(Color.yellow)
                 Spacer()
-                
-                VStack {
-                    Spacer()
-                    
-                    Triangle()
-                        .fill(LinearGradient(gradient: gradientRtoOr, startPoint: .bottom, endPoint: .topLeading))
-                }
             }
         }
     }
